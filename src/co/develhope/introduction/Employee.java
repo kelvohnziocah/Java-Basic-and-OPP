@@ -23,7 +23,7 @@ public class Employee {
     }
     public class Main{
         public static void main(String[] args){
-            Employee employee = new Employee("Kelvin", "Junior Java Dev", 200.00;
+            Employee employee = new Employee("Kelvin", "Junior Java Dev", 200;
             System.out.println("Name:"+employee.getName());
             System.out.println("Position:"+employee.getPosition());
             System.out.println("Salary:"+"$"+employee.getSalary());
