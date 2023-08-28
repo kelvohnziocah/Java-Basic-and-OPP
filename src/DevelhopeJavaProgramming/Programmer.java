@@ -1,16 +1,26 @@
 package DevelhopeJavaProgramming;
 
-public class Programmer {
-    String name;
-    int age;
-    boolean wearsGlasses;
-    public void drinkCoffe(){
-        System.out.println("Expresso is the secret");
+class Programmer {
+    private String name;
+    private int age;
+    private boolean wearsGlasses;
+
+    public Programmer(String name, int age, boolean wearsGlasses) {
+        this.name = name;
+        this.age = age;
+        this.wearsGlasses = wearsGlasses;
     }
-    public void printDetails(){
-        System.out.println("NameHere is a AgeHere-yo programmer");
+
+    public void drinkCoffee() {
+        System.out.println("Espresso is the secret!");
     }
-    public void hasGlasses(){
-        System.out.println("Is NameHere wearing glasses?");
+
+    public void printDetails() {
+        System.out.println(name + " is a " + age + "-yo programmer");
+    }
+
+    public void hasGlasses() {
+        System.out.println("Is " + name + " wearing glasses? " + wearsGlasses);
     }
 }
+
